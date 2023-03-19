@@ -1,21 +1,66 @@
+/* COLOR PALETTE: 
+Tan: #c5b0ab
+Navy: #313b51
+Midnight: #1a181a
+Gray: #7d717b
+Dark gray: #5b5968
+Black: #000000
+*/
+
 html {
     background-color: #7d717b;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header, #submit:hover {
     background-color: #c5b0ab;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+header {
+    width: 100vw;
+    padding: 20px 50px;
 }
 
 .info, #submit {
     background-color: #313b51;
 }
 
+#submit {
+    color: #c5b0ab;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+h1, p {
+    display: block;
+    text-align: center;
+}
+
 h2, h3 {
-    display: inline;
+    display: block;
     background-color: #1a181a;
     color: #c5b0ab;
+    text-align: center;
+    padding: 50px;
 }
 
 .interactive {
     border: 2px solid #000000;
+}
+
+.info, .interactive {
+    width: 600px;
+    margin: auto;
+}
+
+#prius {
+    width: 500px;
+    margin: 10px 50px;
+    border-radius: 25px;
 }
