@@ -2,16 +2,20 @@ html {
     background-color: #7d717b;
 }
 
-header {
+header, #submit:hover {
     background-color: #c5b0ab;
 }
 
-.info {
-    background-color: #7d717b;
+.info, #submit {
+    background-color: #313b51;
 }
 
-h3 {
+h2, h3 {
     display: inline;
     background-color: #1a181a;
     color: #c5b0ab;
+}
+
+.interactive {
+    border: 2px solid #000000;
 }
