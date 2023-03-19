@@ -56,20 +56,31 @@ h2, h3 {
     background-color: #5b5968;
     text-align: center;
     color: #c5b0ab;
+    padding: 2em;
 }
 
 #interactive-text {
     padding: 20px;
 }
 
-#options {
+.options {
     display: flex;
     justify-content: center;
+    margin-bottom: 1em;
+}
+
+.options>label {
+    margin-left: 0.25em;
+
 }
 
 .info, .interactive {
     width: 600px;
     margin: auto;
+}
+
+legend {
+    text-align: center;
 }
 
 #prius {

@@ -19,38 +19,39 @@
         <h3>My main mode of transportation these days is a car.</h3>
       </div>
       <div class="interactive">
-        <div id="interactive-text">
-          <label>What is your preferred method of transporation? (choose one)</label>
-          <br>
-          <br>
-          <div id="options">
-            <label>
-              <input type="radio" name="transportation" id="car" value="car"> Car
-            </label>
-            <label>
-              <input type="radio" name="transportation" id="bus" value="bus"> Bus
-            </label>
-            <label>
-              <input type="radio" name="transportation" id="train" value="train"> Train
-            </label>
-            <br>
-            <label>
-              <input type="radio" name="transportation" id="plane" value="plane"> Plane
-            </label>
-            <label>
-              <input type="radio" name="transportation" id="foot" value="foot"> Walking
-            </label>
-            <label>
-              <input type="radio" name="transportation" id="bike" value="bike"> Bike
-            </label>
-            <label>
-              <input type="radio" name="transportation" id="other" value="other"> Other
-            </label>
+        <fieldset id="interactive-text">
+          <legend>What is your preferred method of transporation?</legend>
+          <div class="options">
+            <input type="radio" name="transportation" id="car" value="car"> 
+            <label for="car">Car</label>
+          </div>
+          <div class="options">
+            <input type="radio" name="transportation" id="bus" value="bus"> 
+            <label for="bus">Bus</label>
+          </div>
+          <div class="options">
+            <input type="radio" name="transportation" id="train" value="train"> 
+            <label for="train">Train</label>
+          </div>
+          <div class="options">
+            <input type="radio" name="transportation" id="plane" value="plane"> 
+            <label for="plane">Plane</label>
+          </div>
+          <div class="options">
+            <input type="radio" name="transportation" id="foot" value="foot"> 
+            <label for="walking">Walking</label>
+          </div>
+          <div class="options">
+            <input type="radio" name="transportation" id="bike" value="bike"> 
+            <label for="bike">Bike</label>
+          </div>
+          <div class="options">
+            <input type="radio" name="transportation" id="other" value="other"> 
+            <label for="other">Other</label>
           </div>
           <br>
-          <br>
           <input id="submit" type="submit">
-        </div>
+        </fieldset>
       </div>
     </main>
   </body>
