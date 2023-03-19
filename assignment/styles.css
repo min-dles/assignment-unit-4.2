@@ -1,3 +1,17 @@
+html {
+    background-color: #7d717b;
+}
+
 header {
-    background-color: gold;
+    background-color: #c5b0ab;
+}
+
+.info {
+    background-color: #7d717b;
+}
+
+h3 {
+    display: inline;
+    background-color: #1a181a;
+    color: #c5b0ab;
 }
